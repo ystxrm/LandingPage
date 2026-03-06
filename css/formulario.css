@@ -18,7 +18,7 @@
     margin-bottom: 1em;
 }
 
-.form-group{
+.form-group {
     display: flex;
     flex-direction: column;
     margin-bottom: 0.8em;
@@ -30,24 +30,25 @@
     font-weight: bold;
 }
 
-.form-group input, .form-group select{
-padding: 6px 8px;
-border-radius: 5px;
-border: none;
-outline: none;
+.form-group input,
+.form-group select {
+    padding: 6px 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
 }
 
-.btn{
+.btn {
     background-color: var(--primary);
     color: var(--text-color);
     text-transform: uppercase;
     width: 100%;
     border: none;
     padding: 12px;
-    cursor: pointer;    
+    cursor: pointer;
     opacity: 0.8;
 }
 
-.btn:hover{
+.btn:hover {
     opacity: 1;
 }

@@ -22,7 +22,7 @@
 
 /* Formulario Inscrição */
 #evento-descript {
-    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../img/imagem1.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/imagem1.jpeg);
     background-position: center;
     background-size: cover;
     height: 85vh;
@@ -32,7 +32,8 @@
     color: var(--text-color)
 }
 
-#insercao h2, #insercao .localizacao {
+#insercao h2,
+#insercao .localizacao {
     color: var(--primary)
 }
 
@@ -41,7 +42,7 @@
     margin-bottom: 1em;
 }
 
-#insercao .sobre-evento{
+#insercao .sobre-evento {
     font-size: 2em;
     text-align: uppercase;
     max-width: 350px;
@@ -49,13 +50,12 @@
     margin-bottom: 1em;
 }
 
-#insercao p{
+#insercao p {
     font-size: 1.2em;
-margin-bottom: .3em;
+    margin-bottom: .3em;
 
 }
 
 #insercao .localizacao {
     font-weight: bold;
 }
-

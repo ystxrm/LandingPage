@@ -6,13 +6,13 @@
     --text-tertiary: #5d5d5d;
 }
 
-#chave-beneficios h2{
+#chave-beneficios h2 {
     background-color: var(--secondary);
     text-align: center;
     padding: 2em;
     font-weight: 500;
 
-} 
+}
 
 .beneficios {
     display: flex;
@@ -23,7 +23,7 @@
     margin: 0 auto;
 }
 
-.beneficio{
+.beneficio {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -32,23 +32,23 @@
     color: var(--text-tertiary);
 }
 
-.beneficio .beneficio-img{
-   width: 250px;
-   height: 250px;
-   border-radius: 50%;
-  background-size: cover;
-  background-position: center;
-  margin-bottom: 1em;
+.beneficio .beneficio-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1em;
 }
 
-#beneficio-1{
-    background-image: url(../img/cardapio.jpeg) ;
+#beneficio-1 {
+    background-image: url(../img/cardapio.jpeg);
 }
 
-#beneficio-2{
-    background-image: url(../img/plaquinhas.jpeg) ;
+#beneficio-2 {
+    background-image: url(../img/plaquinhas.jpeg);
 }
 
-#beneficio-3{
+#beneficio-3 {
     background-image: url(../img/Adesivo.jpeg);
 }
