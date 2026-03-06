@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miolo comunicação gráfica</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/formulario.css">
+    <link rel="stylesheet" href="./css/beneficios.css">
+    <link rel="stylesheet" href="./css/localizacao.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Nunito:wght@600&display=swap"
+        rel="stylesheet">
+        <!-- Icons -->
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <header id="evento-descript">
+        <div id="insercao">
+            <h2>miolo</h2>
+            <p class="sobre-evento">
+                Da criação à impressão: tudo para comunicar sua marca com excelência.
+            </p>
+            <p class="localizacao">
+                Sig/Sul quadra 03 bloco C loja 46
+            </p>
+        </div>
+        <div id="descricao-formulario">
+            <p>Preencha o formulario abaixo para solicitar um orçamento. </p>
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" placeholder="Digite seu nome">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" placeholder="Digite seu email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Telefone</label>
+                    <input type="tel" name="phone" placeholder="Digite seu número de Whatsapp">
+                </div>
+                <div class="form-group">
+                    <label for="interesse">Principal interesse</label>
+                    <select name="interesse">
+                        <option value="" disabled selected>Selecione</option>
+                        <option value="cartoes">Cartões de visita</option>
+                        <option value="flyers">Flyers</option>
+                        <option value="banners">Banners</option>
+                        <option value="adesivos">Adesivos</option>
+                        <option value="outros">Outros</option>
+                    </select>
+                    <input type="submit" class="btn" value="Entrar em contato!">
+                </div>
+            </form>
+        </div>
+    </header>
+
+    <section id="chave-beneficios">
+        <h2>Quais serviços temos a oferecer:</h2>
+        <div class="beneficios">
+            <div class="beneficio">
+                <div id="beneficio-1" class="beneficio-img"></div>
+                <p>Cardapios com revestimento em couro
+                    com durações de longo prazo!</p>
+            </div>
+            <div class="beneficio">
+                <div id="beneficio-2" class="beneficio-img"></div>
+                <p>Placas de acrilicos com acabamento especial! com durabilidade de 5 a 10 anos ou mais dependendo do
+                    cuidado!</p>
+            </div>
+            <div class="beneficio">
+                <div id="beneficio-3" class="beneficio-img"></div>
+                <p>Adesivo fotoluminescente impresso em UV. Com duração interno de 10 anos a mais!</p>
+            </div>
+        </div>
+    </section>
+    <section id="loc">
+        <div id="endereco">
+            <i class="bi bi-geo-alt-fill"></i>
+            <div id="detalhe-endereco">
+                <p>Sig/Sul quadra 03 bloco C loja 46</p>
+                <p>abertura:09:00 AM</p>
+                <p>fechamento:19:00 PM</p>
+            </div>
+        </div>
+        <div id="sobre-localizacao">
+            <h3>Local de destaque</h3>
+        </div>
+    </section>
+    <section id="detalhes">
+        <div class="detalhes" id="detalhe-1">
+            <img src="./img/produto1.jpeg" alt="Logo em acrilico">
+            <div class="detalhe-descricao">
+                <h3></h3>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

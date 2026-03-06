@@ -1,0 +1,54 @@
+:root {
+    --primary: #3aacfd;
+    --secondary: #95989a;
+    --text-color: #fff;
+    --text-secondary: #000;
+    --text-tertiary: #5d5d5d;
+}
+
+#chave-beneficios h2 {
+    background-color: var(--secondary);
+    text-align: center;
+    padding: 2em;
+    font-weight: 500;
+
+}
+
+.beneficios {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4em;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.beneficio {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 20%;
+    color: var(--text-tertiary);
+}
+
+.beneficio .beneficio-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1em;
+}
+
+#beneficio-1 {
+    background-image: url(../img/cardapio.jpeg);
+}
+
+#beneficio-2 {
+    background-image: url(../img/plaquinhas.jpeg);
+}
+
+#beneficio-3 {
+    background-image: url(../img/Adesivo.jpeg);
+}
