@@ -1,0 +1,62 @@
+:root {
+    --primary: #3aacfd;
+    --secondary: #95989a;
+    --text-color: #fff;
+    --text-secondary: #000;
+    --text-tertiary: #5d5d5d;
+}
+
+#detalhes{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.detalhe{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 5%;
+    margin-bottom: 4em;
+}
+
+.detalhe img {
+    width: 30%;
+}
+
+.detalhe h3 {
+    font-family: "Nunito";
+    margin-bottom: 1em;
+    font-size: 2em;
+    font-weight: 200px;
+}
+
+#detalhe-1 h3 {
+font-size: 3em;
+font-weight: 500px;
+}
+
+
+.detalhe-descricao {
+    width: 100%;
+    padding-left: 2em;
+}
+
+.detalhe-descricao ul {
+    list-style-position: inside;
+}
+
+.detalhe-descricao ul li {
+    margin-bottom: 0.4em;
+}
+
+.detalhe-descricao ul li:last-child{
+    font-weight: bold;
+}
+
+#detalhe-2 h3 {
+
+}
+
+#detalhe-3 {
+
+}
