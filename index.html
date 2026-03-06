@@ -8,6 +8,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/formulario.css">
+    <link rel="stylesheet" href="./css/beneficios.css">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,41 +28,54 @@
             </p>
         </div>
         <div id="descricao-formulario">
-            <p>Preencha o formulario abaixo para solicitar um orçamento. </p>  
+            <p>Preencha o formulario abaixo para solicitar um orçamento. </p>
             <form action="">
                 <div class="form-group">
                     <label for="name">Nome</label>
-                    <input type="text" 
-                    name="name" 
-                    placeholder="Digite seu nome">
+                    <input type="text" name="name" placeholder="Digite seu nome">
                 </div>
                 <div class="form-group">
                     <label for="email">E-mail</label>
-                    <input type="email" 
-                    name="email" 
-                    placeholder="Digite seu email">
+                    <input type="email" name="email" placeholder="Digite seu email">
                 </div>
                 <div class="form-group">
                     <label for="phone">Telefone</label>
-                    <input type="tel" 
-                    name="phone" 
-                    placeholder="Digite seu número de Whatsapp">
+                    <input type="tel" name="phone" placeholder="Digite seu número de Whatsapp">
                 </div>
                 <div class="form-group">
                     <label for="interesse">Principal interesse</label>
                     <select name="interesse">
-                    <option value="" disabled selected>Selecione</option>
-                    <option value="cartoes">Cartões de visita</option>
-                    <option value="flyers">Flyers</option>
-                    <option value="banners">Banners</option>
-                    <option value="adesivos">Adesivos</option>
-                    <option value="outros">Outros</option>
+                        <option value="" disabled selected>Selecione</option>
+                        <option value="cartoes">Cartões de visita</option>
+                        <option value="flyers">Flyers</option>
+                        <option value="banners">Banners</option>
+                        <option value="adesivos">Adesivos</option>
+                        <option value="outros">Outros</option>
                     </select>
                     <input type="submit" class="btn" value="Entrar em contato!">
                 </div>
             </form>
         </div>
     </header>
+
+    <section id="chave-beneficios">
+        <h2>Quais serviços temos a oferecer:</h2>
+        <div class="beneficios">
+            <div class="beneficio">
+                <div id="beneficio-1" class="beneficio-img"></div>
+                <p>Cardapios com revestimento em couro
+                    com durações de longo prazo!</p>
+            </div>
+            <div class="beneficio">
+                <div id="beneficio-2" class="beneficio-img"></div>
+                <p>Placas de acrilicos com acabamento especial! com durabilidade de 5 a 10 anos ou mais dependendo do cuidado!</p>
+            </div>
+            <div class="beneficio">
+                <div id="beneficio-3" class="beneficio-img"></div>
+                <p>Adesivo fotoluminescente impresso em UV. Com duração interno de 10 anos a mais!</p>
+            </div>
+        </div>
+    </section>
 
 </body>
 
