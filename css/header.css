@@ -1,0 +1,51 @@
+:root {
+    --primary: #3aacfd;
+    --secondary: #95989a;
+    --text-color: #fff;
+    --text-secondary: #000;
+    --text-tertiary: #5d5d5d;
+}
+
+.insercao {
+    font-family: "Nunito";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    font-family: "Nunito";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Formulario Inscrição */
+#evento-descript {
+    background-image: url(../img/imagem1.jpeg);
+    background-image: rgba(0,0,0,1), rgba(0,0,0,1);
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--text-color)
+}
+
+#insercao h2, #insercao .localizacao {
+    color: var(--primary)
+}
+
+#insercao h2 {
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+#insercao .sobre-evento{
+    font-size: 2em;
+    text-align: uppercase;
+    max-width: 350px;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
