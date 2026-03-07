@@ -54,9 +54,17 @@ font-weight: 500px;
 }
 
 #detalhe-2 h3 {
-
+font-size: 3em;
+font-weight: 500px;
 }
 
-#detalhe-3 {
+#detalhe-3 h3{
+font-size: 3em;
+font-weight: 500px;
+}
 
+.detalhe img{
+ display: flex;
+    align-items: flex-start;
+    justify-content: left;
 }
